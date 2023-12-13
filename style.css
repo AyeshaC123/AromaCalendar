@@ -46,7 +46,7 @@ header {
     background-color: #e0e0e0;
 }
 
-/* Style for the day headers (Sun, Mon, etc.) */
+
 .day-header {
     background-color: #ffffff;
     padding: 10px;
@@ -54,7 +54,7 @@ header {
     font-weight: bold;
 }
 
-/* Style for the empty days at the start and end of the month */
+
 .empty-day {
     background-color: transparent;
     border: none;
@@ -73,19 +73,19 @@ header {
 }
 
 
-/* Add this new part for header customization */
+
 header h1, header h2 {
-    color: #800080; /* Purple text */
+    color: #800080; 
     margin: 0;
 }
 
 header h1 {
-    background-color: #ffccff; /* Light pink background */
+    background-color: #ffccff; 
     padding: 10px;
     border-radius: 10px 10px 0 0;
 }
 
 header h2 {
-    color: #800080; /* Purple text */
+    color: #800080; 
     padding: 5px;
 }
