@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.calendar-container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #ffccff; /* Light pink background */
+    color: #800080; /* Purple text */
+    padding: 20px 0;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 days in a row */
+    grid-gap: 5px;
+    padding: 20px;
+}
+
+.day {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    height: 100px; /* Set a fixed height for each day cell */
+}
+
+.day:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style for the day headers (Sun, Mon, etc.) */
+.day-header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Style for the empty days at the start and end of the month */
+.empty-day {
+    background-color: transparent;
+    border: none;
+}
+
+/* Style for the current day (optional) */
+.current-day {
+    background-color: #e0f0ff;
+}
+
+/* Clear float */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Add this new part for header customization */
+header h1, header h2 {
+    color: #800080; /* Purple text */
+    margin: 0;
+}
+
+header h1 {
+    background-color: #ffccff; /* Light pink background */
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+header h2 {
+    color: #800080; /* Purple text */
+    padding: 5px;
+}

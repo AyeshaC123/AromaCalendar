@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Therapy Activities Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add hover effect for the .day class */
+        .day:hover {
+            background-color: rgb(243, 179, 243); /* Change the background color to your desired color */
+            cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar-container">
+        <header>
+            <h1>Aroma Therapy Activities</h1>
+            <h2>November 2023</h2>
+        </header>
+        <div id="calendar">
+            <!-- Day headers -->
+            <div class="day-header">Sun</div>
+            <div class="day-header">Mon</div>
+            <div class="day-header">Tue</div>
+            <div class="day-header">Wed</div>
+            <div class="day-header">Thu</div>
+            <div class="day-header">Fri</div>
+            <div class="day-header">Sat</div>
+            
+            <!-- Empty days to adjust the start day of the month -->
+            <!-- Add or remove these as necessary to match the first day of the month -->
+            <div class="empty-day"></div>
+            <!-- ... repeat empty-day as needed ... -->
+
+            <!-- Days (1-30) -->
+            <!-- Repeat the day div for each day of the month -->
+            <!-- Days (1-30) with activities -->
+            <div class="day" onclick="openActivity('days/day1.html')">1 - Introduction to Calendar!</div>
+            <div class="day" onclick="openActivity('days/day2.html')">2 - Introduction to Aroma Therapy</div>
+            <div class="day" onclick="openActivity('days/day3.html')">3 - History to Aroma Therapy</div>
+            <div class="day" onclick="openActivity('days/day4.html')">4 - Using Oils</div>
+            <div class="day" onclick="openActivity('days/day5.html')">5 - Oil Diffuser</div>
+            <div class="day" onclick="openActivity('days/day6.html')">6 - Aromatic Body Massage</div>
+            <div class="day" onclick="openActivity('days/day7.html')">7 - Aromatic Bath</div>
+            <!-- ... continue for each day ... -->
+            
+
+            <div class="day" onclick="openActivity('days/day8.html')">8 - Aromatic candles/room spray</div>
+            <div class="day" onclick="openActivity('days/day9.html')">9 - Pillow Scents</div>
+            <div class="day" onclick="openActivity('days/day10.html')">10 - Citrus Morning Boost</div>
+            <div class="day" onclick="openActivity('days/day11.html')">11 - Peppermint Headache Relief</div>
+            <div class="day" onclick="openActivity('days/day12.html')">12 - Tea Tree Foot Soak</div>
+            <div class="day" onclick="openActivity('days/day13.html')">13 - Rosemary Hair Nourishment</div>
+            <div class="day" onclick="openActivity('days/day14.html')">14 - Chamomile Night Tea</div>
+            <div class="day" onclick="openActivity('days/day15.html')">15 - Eucalyptus Shower Steamers</div>
+            <div class="day" onclick="openActivity('days/day16.html')">16 - Lemon Cleaning Spray</div>
+            <div class="day" onclick="openActivity('days/day17.html')">17 - Sandalwood Aromatic Writing</div>
+            <div class="day" onclick="openActivity('days/day18.html')">18 - Jasmine Mood Perfume</div>
+            <div class="day" onclick="openActivity('days/day19.html')">19 - Ylang-Ylang Romantic Diffuser</div>
+            <div class="day" onclick="openActivity('days/day20.html')">20 - Bergamot Stress Relief</div>
+            <div class="day" onclick="openActivity('days/day21.html')">21 - Cedarwood Closet Freshener</div>
+            <div class="day" onclick="openActivity('days/day22.html')">22 - Clary Sage Hormonal Balance</div>
+            <div class="day" onclick="openActivity('days/day23.html')">23 - Lavender Linen Spray</div>
+            <div class="day" onclick="openActivity('days/day24.html')">24 -  Ginger Digestion Aid</div>
+            <div class="day" onclick="openActivity('days/day25.html')">25 - Patchouli Mood Grounding</div>
+            <div class="day" onclick="openActivity('days/day26.html')">26 - Neroli Anti-Anxiety Roll-On</div>
+            <div class="day" onclick="openActivity('days/day27.html')">27 - Myrrh Ancient Healing</div>
+            <div class="day" onclick="openActivity('days/day28.html')">28 - Cinnamon Home Warming</div>
+            <div class="day" onclick="openActivity('days/day29.html')">29 - Geranium Skin Beauty</div>
+            <div class="day" onclick="openActivity('days/day30.html')">30 - Lime Culinary Zest</div>
+
+            <!-- Empty days if the last day of the month is not Saturday -->
+            <!-- Add or remove these as necessary to fill the grid -->
+            <div class="empty-day"></div>
+            <!-- ... repeat empty-day as needed ... -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
