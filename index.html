@@ -6,10 +6,10 @@
     <title>Art Therapy Activities Calendar</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Add hover effect for the .day class */
+        
         .day:hover {
-            background-color: rgb(243, 179, 243); /* Change the background color to your desired color */
-            cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
+            background-color: rgb(243, 179, 243);
+            cursor: pointer; 
         }
     </style>
 </head>
@@ -29,13 +29,9 @@
             <div class="day-header">Fri</div>
             <div class="day-header">Sat</div>
             
-            <!-- Empty days to adjust the start day of the month -->
-            <!-- Add or remove these as necessary to match the first day of the month -->
+       
             <div class="empty-day"></div>
-            <!-- ... repeat empty-day as needed ... -->
-
-            <!-- Days (1-30) -->
-            <!-- Repeat the day div for each day of the month -->
+     
             <!-- Days (1-30) with activities -->
             <div class="day" onclick="openActivity('days/day1.html')">1 - Introduction to Calendar!</div>
             <div class="day" onclick="openActivity('days/day2.html')">2 - Introduction to Aroma Therapy</div>
@@ -44,9 +40,6 @@
             <div class="day" onclick="openActivity('days/day5.html')">5 - Oil Diffuser</div>
             <div class="day" onclick="openActivity('days/day6.html')">6 - Aromatic Body Massage</div>
             <div class="day" onclick="openActivity('days/day7.html')">7 - Aromatic Bath</div>
-            <!-- ... continue for each day ... -->
-            
-
             <div class="day" onclick="openActivity('days/day8.html')">8 - Aromatic candles/room spray</div>
             <div class="day" onclick="openActivity('days/day9.html')">9 - Pillow Scents</div>
             <div class="day" onclick="openActivity('days/day10.html')">10 - Citrus Morning Boost</div>
@@ -71,10 +64,9 @@
             <div class="day" onclick="openActivity('days/day29.html')">29 - Geranium Skin Beauty</div>
             <div class="day" onclick="openActivity('days/day30.html')">30 - Lime Culinary Zest</div>
 
-            <!-- Empty days if the last day of the month is not Saturday -->
-            <!-- Add or remove these as necessary to fill the grid -->
+        
             <div class="empty-day"></div>
-            <!-- ... repeat empty-day as needed ... -->
+        
         </div>
     </div>
     <script src="script.js"></script>
